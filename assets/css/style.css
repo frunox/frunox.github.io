@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Header elements */
+/* Header elements styling */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,6 +49,7 @@ a {
 
 /* End of header elements */
 
+/* Style the big image */
 .team-image {
     height: 800px;
     width: 100%;
@@ -70,7 +71,7 @@ p {
     margin-left: 20px;
 }
 
-    /* Style all content blocks */
+    /* Style all 3 content blocks */
 .content-block {
     margin-bottom: 20px;
     padding: 50px;
