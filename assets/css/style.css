@@ -1,14 +1,16 @@
+/* Use box sizing to make height/width determinations more logical */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* BODY styling */
 body {
     background-color: #d9dcd6;
 }
 
-/* Header elements styling */
+/* HEADER elements styling */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,10 +23,12 @@ body {
     font-size: 48px;
 }
 
+    /* style h1 span */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+    /* style the nav container */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,21 +37,29 @@ body {
     font-size: 20px;
 }
 
+    /* style links with no list markers */
 .header nav ul {
     list-style-type: none;
 }
 
+    /* make links display inline with spacing */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+    /* style links text */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* End of header elements */
+    /* add hover effect to links */
+a:hover {
+    color: orange;
+  }
+
+/* End of HEADER styling */
 
 /* Style the big image */
 .team-image {
@@ -59,12 +71,12 @@ a {
     background-position: center;
 }
 
-/* Style all paragraphs */
+/* Style all paragraphs  font size */
 p {
     font-size: 16px;
 }
 
-/* Content section element styles */
+/* CONTENT section element styles */
 .content {
     width: 75%;
     display: inline-block;
@@ -81,15 +93,12 @@ p {
     color: #ffffff;
 }
 
+    /* style content images size */
 .content-block img {
     max-height: 200px;
 }
 
-.content-block h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+    /* float content images so they alternate sides */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -99,9 +108,16 @@ p {
     float: right;
     margin-left: 25px;
 }
-/* End of Content section */
 
-/* Benefits section styling */
+    /* style content headers */
+.content-block h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* End of CONTENT section */
+
+/* Benefits ASIDE styling */
+    /* overall styling for benefits aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -114,22 +130,27 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-item {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+    /* style each article header */
 .benefit-item h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+    /* style each article image */
 .benefit-item img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* End of Benefits section */
+
+    /* style text in each ASIDE article */
+.benefit-item {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+    
+/* End of Benefits ASIDE */
+
 /* Footer section styling */
 .footer {
     padding: 30px;
@@ -138,6 +159,7 @@ p {
     text-align: center;
 }
 
+    /* style footer header */
 .footer h2 {
     font-size: 20px;
 }
