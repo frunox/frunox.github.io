@@ -17,7 +17,7 @@ Refactoring of the provided HTML and CSS code was done to meet these goals:
 
 THe goals where reached by:
 
-- Replacing <div> tags in the original HTML code with semantic tags to provide better readibility and understanding of what the various elements and blocks of code represent.  A <main> tag was placed around the key content.  Comments were added to make the code understandable.
+- Replacing 'div' tags in the original HTML code with semantic tags to provide better readibility and understanding of what the various elements and blocks of code represent.  A 'main' tag was placed around the key content.  Comments were added to make the code understandable.
 
 - Organizing the HTML code to flow in manner consistent with the content as viewed in the browser.
 
